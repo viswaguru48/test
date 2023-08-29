@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Restoran</title>
+</head>
+<body>
+    <header>
+        <div class="navbar" id="nav">
+            <input type="checkbox" id="check">
+            <div class="logo">
+                <a href=""><i class="fa-solid fa-utensils"></i>Restoran</a>
+            </div>
+            <ul class="navlinks">
+                <li><a href="#home" class="active">HOME</a></li>
+                <li><a href="#aboutus">ABOUT</a></li>
+                <li><a href="#homecards">SERVICE</a></li>
+                <li><a href="#foodmenu">MENU</a></li>
+                <li><a href="">PAGES <i class="fa-solid fa-sort-down"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="#reservation">Booking</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#client">Testimonial</a></li>
+                    </ul>
+                </li>
+                <li><a href="#footer">CONTACT</a></li>
+                <a href="" class="book">BOOK A TABLE</a>
+            </ul>
+            <label for="check" class="menu"><i class="fa-solid fa-bars"></i></label>
+
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="homecontainer">
+                <div class="homecontents">
+                    <div class="homeleft">
+                        <h1>Enjoy Our <br>Delicious Meal</h1>
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        <a href="">BOOK A TABLE</a>
+                    </div>
+                    <div class="homeright">
+                        <img src="images/hero.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------------------------------------------------------------------- -->
+        
+        <section id="homecards">
+            <div class="top">
+                <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+            </div>
+    
+            <div class="hc-container">
+                <div class="hc-contents">
+                    <div class="card">
+                        <i class="fa-solid fa-user-tie"></i>
+                        <h2>Master Chefs</h2>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-utensils"></i>
+                        <h2>Quality Food</h2>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-cart-plus"></i>
+                        <h2>Online Order</h2>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>         
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-headset"></i>
+                        <h2>24/7 Service</h2>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------------------------------------------------------------------- -->
+
+        <section id="aboutus">
+            <div class="aboutcontainer">
+                <div class="aboutcontents">
+                    <div class="aboutleft">
+                        <div class="a-lefttop">
+                            <div class="about1"><img src="images/about-1.jpg" alt=""></div>
+                            <div class="about2"><img src="images/about-2.jpg" alt=""></div>              
+                        </div>
+                        <div class="a-leftbottom">
+                            <div class="about3"><img src="images/about-3.jpg" alt=""></div>
+                            <div class="about4"><img src="images/about-4.jpg" alt=""></div>              
+                        </div>
+                    </div>
+                    <div class="aboutright">
+                        <h3>About Us</h3>
+                        <span>Welcome to <i class="fa-solid fa-utensils"></i> Restoran</span>
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
+                        <p class="para">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        <div class="aboutnums">
+                            <div class="years">
+                                <div class="num">
+                                    <h4>15</h4>
+                                </div>
+                                <div class="abtexts">
+                                    <p>Years of</p>
+                                    <span>EXPERIENCE</span>
+                                </div>
+                            </div>
+                            <div class="years">
+                                <div class="num">
+                                    <h4>50</h4>
+                                </div>
+                                <div class="abtexts">
+                                    <p>Popular</p>
+                                    <span>MASTER CHEFS</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ---------------------------------------------------------------------- -->
+        <section id="foodmenu">
+            <div class="foodcontainer">
+                <div class="foodtop">
+                    <h3>Food Menu</h3>
+                    <span>Most Popular Items</span>
+                    <div class="menulinks">
+                        <a href="#item1" class="active">
+                            <i class="fa-solid fa-mug-saucer"></i>
+                            <div class="menutext"><h4>Popular<span>Breakfast</span></h4></div>
+                        </a>
+                        <a href="#item2">
+                            <i class="fa-solid fa-burger"></i>
+                            <div class="menutext"><h4>Special<span>Lunch</span></h4></div>
+                        <a href="#item3">
+                            <i class="fa-solid fa-utensils"></i>
+                            <div class="menutext"><h4>Lovely<span>Dinner</span></h4></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="foodcontents">
+                    <div class="foodslide">
+                        <div class="foodbottom" id="item1">
+                            
+                            <div class="fbleft">
+                                <div class="menu">
+                                    <div class="menuimg">
+                                        <img src="images/menu-1.jpg" alt="">
+                                    </div>
+                                    <div class="menuinfo">
+                                        <div class="infotop">
+                                            <h4>Chicken Burger</h4>
+                                            <span>$115</span>
+                                        </div>
+                                        <div class="infobottom">
+                                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu">
+                                    <div class="menuimg">
+                                        <img src="images/menu-3.jpg" alt="">
+                                    </div>
+                                    <div class="menuinfo">
+                                        <div class="infotop">
+                                            <h4>Chicken Burger</h4>
+                                            <span>$115</span>
+                                        </div>
+                                        <div class="infobottom">
+                                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu">
+                                    <div class="menuimg">
+                                        <img src="images/menu-5.jpg" alt="">
+                                    </div>
+                                    <div class="menuinfo">
+                                        <div class="infotop">
+                                            <h4>Chicken Burger</h4>
+                                            <span>$115</span>
+                                        </div>
+                                        <div class="infobottom">
+                                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu">
+                                    <div class="menuimg">
+                                        <img src="images/menu-7.jpg" alt="">
+                                    </div>
+                                    <div class="menuinfo">
+                                        <div class="infotop">
+                                            <h4>Chicken Burger</h4>
+                                            <span>$115</span>
+                                        </div>
+                                        <div class="infobottom">
+                                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fbright">
+                                <div class="menu">
+                                    <div class="menuimg">
+                                        <img src="images/menu-2.jpg" alt="">
+                                    </div>
+                                    <div class="menuinfo">
+                                        <div class="infotop">
+                                            <h4>Chicken Burger</h4>
+                                            <span>$115</span>
+                                        </div>
+                                        <div class="infobottom">
+                                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu">
+                                    <div class="menuimg">
+                                        <img src="images/menu-4.jpg" alt="">
+                                    </div>
+                                    <div class="menuinfo">
+                                        <div class="infotop">
+                                            <h4>Chicken Burger</h4>
+                                            <span>$115</span>
+                                        </div>
+                                        <div class="infobottom">
+                                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu">
+                                    <div class="menuimg">
+                                        <img src="images/menu-6.jpg" alt="">
+                                    </div>
+                                    <div class="menuinfo">
+                                        <div class="infotop">
+                                            <h4>Chicken Burger</h4>
+                                            <span>$115</span>
+                                        </div>
+                                        <div class="infobottom">
+                                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu">
+                                    <div class="menuimg">
+                                        <img src="images/menu-8.jpg" alt="">
+                                    </div>
+                                    <div class="menuinfo">
+                                        <div class="infotop">
+                                            <h4>Chicken Burger</h4>
+                                            <span>$115</span>
+                                        </div>
+                                        <div class="infobottom">
+                                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="foodbottom" id="item2">
+                            
+                            <div class="fbleft">
+                                <div class="menu">
+                                    <div class="menuimg">
+                                        <img src="images/menu-1.jpg" alt="">
+                                    </div>
+                                    <div class="menuinfo">
+                                        <div class="infotop">
+                                            <h4>Chicken Burger</h4>
+                                            <span>$115</span>
+                                        </div>
+                                        <div class="infobottom">
+                                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu">
+                                    <div class="menuimg">
+                                        <img src="images/menu-3.jpg" alt="">
+                                    </div>
+                                    <div class="menuinfo">
+                                        <div class="infotop">
+                                            <h4>Chicken Burger</h4>
+                                            <span>$115</span>
+                                        </div>
+                                        <div class="infobottom">
+                                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu">
+                                    <div class="menuimg">
+                                        <img src="images/menu-5.jpg" alt="">
+                                    </div>
+                                    <div class="menuinfo">
+                                        <div class="infotop">
+                                            <h4>Chicken Burger</h4>
+                                            <span>$115</span>
+                                        </div>
+                                        <div class="infobottom">
+                                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu">
+                                    <div class="menuimg">
+                                        <img src="images/menu-7.jpg" alt="">
+                                    </div>
+                                    <div class="menuinfo">
+                                        <div class="infotop">
+                                            <h4>Chicken Burger</h4>
+                                            <span>$115</span>
+                                        </div>
+                                        <div class="infobottom">
+                                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fbright">
+                                <div class="menu">
+                                    <div class="menuimg">
+                                        <img src="images/menu-2.jpg" alt="">
+                                    </div>
+                                    <div class="menuinfo">
+                                        <div class="infotop">
+                                            <h4>Chicken Burger</h4>
+                                            <span>$115</span>
+                                        </div>
+                                        <div class="infobottom">
+                                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu">
+                                    <div class="menuimg">
+                                        <img src="images/menu-4.jpg" alt="">
+                                    </div>
+                                    <div class="menuinfo">
+                                        <div class="infotop">
+                                            <h4>Chicken Burger</h4>
+                                            <span>$115</span>
+                                        </div>
+                                        <div class="infobottom">
+                                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu">
+                                    <div class="menuimg">
+                                        <img src="images/menu-6.jpg" alt="">
+                                    </div>
+                                    <div class="menuinfo">
+                                        <div class="infotop">
+                                            <h4>Chicken Burger</h4>
+                                            <span>$115</span>
+                                        </div>
+                                        <div class="infobottom">
+                                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu">
+                                    <div class="menuimg">
+                                        <img src="images/menu-8.jpg" alt="">
+                                    </div>
+                                    <div class="menuinfo">
+                                        <div class="infotop">
+                                            <h4>Chicken Burger</h4>
+                                            <span>$115</span>
+                                        </div>
+                                        <div class="infobottom">
+                                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="foodbottom" id="item3">
+                            
+                            <div class="fbleft">
+                                <div class="menu">
+                                    <div class="menuimg">
+                                        <img src="images/menu-1.jpg" alt="">
+                                    </div>
+                                    <div class="menuinfo">
+                                        <div class="infotop">
+                                            <h4>Chicken Burger</h4>
+                                            <span>$115</span>
+                                        </div>
+                                        <div class="infobottom">
+                                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu">
+                                    <div class="menuimg">
+                                        <img src="images/menu-3.jpg" alt="">
+                                    </div>
+                                    <div class="menuinfo">
+                                        <div class="infotop">
+                                            <h4>Chicken Burger</h4>
+                                            <span>$115</span>
+                                        </div>
+                                        <div class="infobottom">
+                                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu">
+                                    <div class="menuimg">
+                                        <img src="images/menu-5.jpg" alt="">
+                                    </div>
+                                    <div class="menuinfo">
+                                        <div class="infotop">
+                                            <h4>Chicken Burger</h4>
+                                            <span>$115</span>
+                                        </div>
+                                        <div class="infobottom">
+                                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu">
+                                    <div class="menuimg">
+                                        <img src="images/menu-7.jpg" alt="">
+                                    </div>
+                                    <div class="menuinfo">
+                                        <div class="infotop">
+                                            <h4>Chicken Burger</h4>
+                                            <span>$115</span>
+                                        </div>
+                                        <div class="infobottom">
+                                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fbright">
+                                <div class="menu">
+                                    <div class="menuimg">
+                                        <img src="images/menu-2.jpg" alt="">
+                                    </div>
+                                    <div class="menuinfo">
+                                        <div class="infotop">
+                                            <h4>Chicken Burger</h4>
+                                            <span>$115</span>
+                                        </div>
+                                        <div class="infobottom">
+                                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu">
+                                    <div class="menuimg">
+                                        <img src="images/menu-4.jpg" alt="">
+                                    </div>
+                                    <div class="menuinfo">
+                                        <div class="infotop">
+                                            <h4>Chicken Burger</h4>
+                                            <span>$115</span>
+                                        </div>
+                                        <div class="infobottom">
+                                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu">
+                                    <div class="menuimg">
+                                        <img src="images/menu-6.jpg" alt="">
+                                    </div>
+                                    <div class="menuinfo">
+                                        <div class="infotop">
+                                            <h4>Chicken Burger</h4>
+                                            <span>$115</span>
+                                        </div>
+                                        <div class="infobottom">
+                                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu">
+                                    <div class="menuimg">
+                                        <img src="images/menu-8.jpg" alt="">
+                                    </div>
+                                    <div class="menuinfo">
+                                        <div class="infotop">
+                                            <h4>Chicken Burger</h4>
+                                            <span>$115</span>
+                                        </div>
+                                        <div class="infobottom">
+                                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ---------------------------------------------------------------------- -->
+        <section id="reservation">
+            <div class="reservcontainer">
+                <div class="reservcontents">
+                    <div class="reservleft">
+                        <a href=""><i class="fa-solid fa-circle-play"></i></a>
+                    </div>
+                    <div class="reservright">
+
+                        <div class="rrtop">
+                            <h3>Reservation</h3>
+                            <span>Book A Table Online</span>
+                        </div>
+
+                        <div class="rrbottom">
+                            <div class="rrbottom-top1">
+                                <input type="text" placeholder="Your Name">
+                                <input type="text" placeholder="Your Email">
+                            </div>
+                            <div class="rrbottom-top2">
+                                <input type="datetime-local" placeholder="Date & Time">    
+                                <div class="selection">
+                                    <select name="People" id="select1">
+                                        <option value="1">People 1</option>
+                                        <option value="2">People 2</option>
+                                        <option value="3">People 3</option>
+                                    </select>
+                                    <label for="select1">No Of People</label>
+                                </div>   
+                            </div>
+                            <div class="rrbottom-last">
+                                <textarea name="message" id="message" cols="30" rows="2">Special Request</textarea>
+                                <a href="">BOOK NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ---------------------------------------------------------------------- -->
+        <section id="team">
+            <div class="teamcontainer">
+                <div class="teamcontents">
+                    <div class="teamtop">
+                        <h3>Team Members</h3>
+                        <span>Our Master Chefs</span>
+                    </div>
+                    <div class="teambottom">
+                        <div class="teamcard">
+                            <div class="tcard">
+                                <div class="timg">
+                                    <img src="images/team-1.jpg" alt="">
+                                </div>
+                                <h3>Full Name</h3>
+                                <p>Designation</p>
+                            </div>
+                            <div class="socioicons">
+                                <div class="sicons">
+                                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                                <div class="white"></div>
+                            </div>
+                        </div>
+                        <div class="teamcard">
+                            <div class="tcard">
+                                <div class="timg">
+                                    <img src="images/team-2.jpg" alt="">
+                                </div>
+                                <h3>Full Name</h3>
+                                <p>Designation</p>
+                            </div>
+                            <div class="socioicons">
+                                <div class="sicons">
+                                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                                <div class="white"></div>
+                            </div>
+                        </div>
+                        <div class="teamcard">
+                            <div class="tcard">
+                                <div class="timg">
+                                    <img src="images/team-3.jpg" alt="">
+                                </div>
+                                <h3>Full Name</h3>
+                                <p>Designation</p>
+                            </div>
+                            <div class="socioicons">
+                                <div class="sicons">
+                                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                                <div class="white"></div>
+                            </div>
+                        </div>
+                        <div class="teamcard">
+                            <div class="tcard">
+                                <div class="timg">
+                                    <img src="images/team-4.jpg" alt="">
+                                </div>
+                                <h3>Full Name</h3>
+                                <p>Designation</p>
+                            </div>
+                            <div class="socioicons">   
+                                <div class="sicons">
+                                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                                <div class="white"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ---------------------------------------------------------------------- -->
+        <section id="client">
+            <div class="clientcontainer">
+                <div class="clientcontents">
+                    <div class="clienttop">
+                        <h3>Testimonial</h3>
+                        <span>Our Clients Say!!!</span>
+                    </div>
+                    <div class="clientbottom">
+                        <div class="client-items">
+                            <input type="radio" name="radiobtn" id="radiobtn1">
+                            <input type="radio" name="radiobtn" id="radiobtn2">
+                            <input type="radio" name="radiobtn" id="radiobtn3">
+                            <input type="radio" name="radiobtn" id="radiobtn4">
+
+                            <div class="client first client1">
+                                <i class="fa-solid fa-quote-left"></i>
+                                <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                                <div class="clientimg">
+                                    <img src="images/testimonial-1.jpg" alt="">
+                                    <div class="c-info">
+                                        <h3>Client Name</h3>
+                                        <span>Profession</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="client client2 active">
+                                <i class="fa-solid fa-quote-left"></i>
+                                <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                                <div class="clientimg">
+                                    <img src="images/testimonial-2.jpg" alt="">
+                                    <div class="c-info">
+                                        <h3>Client Name</h3>
+                                        <span>Profession</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="client client3">
+                                <i class="fa-solid fa-quote-left"></i>
+                                <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                                <div class="clientimg">
+                                    <img src="images/testimonial-3.jpg" alt="">
+                                    <div class="c-info">
+                                        <h3>Client Name</h3>
+                                        <span>Profession</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="client client4">
+                                <i class="fa-solid fa-quote-left"></i>
+                                <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                                <div class="clientimg">
+                                    <img src="images/testimonial-4.jpg" alt="">
+                                    <div class="c-info">
+                                        <h3>Client Name</h3>
+                                        <span>Profession</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="client client5">
+                                <i class="fa-solid fa-quote-left"></i>
+                                <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                                <div class="clientimg">
+                                    <img src="images/testimonial-1.jpg" alt="">
+                                    <div class="c-info">
+                                        <h3>Client Name</h3>
+                                        <span>Profession</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="client">
+                                <i class="fa-solid fa-quote-left"></i>
+                                <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                                <div class="clientimg">
+                                    <img src="images/testimonial-2.jpg" alt="">
+                                    <div class="c-info">
+                                        <h3>Client Name</h3>
+                                        <span>Profession</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="client">
+                                <i class="fa-solid fa-quote-left"></i>
+                                <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                                <div class="clientimg">
+                                    <img src="images/testimonial-3.jpg" alt="">
+                                    <div class="c-info">
+                                        <h3>Client Name</h3>
+                                        <span>Profession</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <label for="radiobtn1" class="manualBtn"></label>
+                            <label for="radiobtn2" class="manualBtn"></label>
+                            <label for="radiobtn3" class="manualBtn"></label>
+                            <label for="radiobtn4" class="manualBtn"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section id="footer">
+            <div class="footcontainer">
+                <div class="footcontents">
+                    <div class="foottop">
+                        <div class="company">
+                            <h3>Company</h3>
+                            <div class="complinks">
+                                <a href=""><i class="fa-solid fa-angle-right"></i>About Us</a>
+                                <a href=""><i class="fa-solid fa-angle-right"></i>Contact Us</a>
+                                <a href=""><i class="fa-solid fa-angle-right"></i>Reservation</a>
+                                <a href=""><i class="fa-solid fa-angle-right"></i>Privacy Policy</a>
+                                <a href=""><i class="fa-solid fa-angle-right"></i>Terms & Condition</a>
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <h3>Contact</h3>
+                            <div class="address">
+                                <i class="fa-solid fa-location-dot"><span>123 Street, New York, USA</span></i>
+                                <i class="fa-solid fa-phone"><span>+012 345 67890</span></i>
+                                <i class="fa-solid fa-envelope"><span>info@example.com</span></i>
+                            </div>
+                            <div class="follow">
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-youtube"></i>
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                        <div class="opening">
+                            <h3>Opening</h3>
+                            <div class="openinfo">   
+                                <p>Monday-Saturday</p>
+                                <span>09AM-09PM</span>
+                                <p>Sunday</p>
+                                <span>10AM-08PM</span>
+                            </div>
+                        </div>
+                        <div class="newsletter">
+                            <h3>Newsletter</h3>
+                            <div class="newspara">
+                                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                            </div>
+                            <div class="email">
+                                <input type="text" placeholder="Your email">
+                                <input type="button" class="signup" value="SIGNUP">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footbottom">
+                        <div class="copyright">
+                            <p>&copy; <a href="">Your Site Name,</a>&nbsp;All Right Reserved. Designed By <a href="">HTML Codex</a></p>
+                            <p>Distributed By <a href="">ThemeWagon</a></p>
+                        </div>
+                        <div class="footerlinks">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FAQs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
